@@ -61,6 +61,19 @@ body {
   width: 150px;
   border-radius: 5px;
 }
+.plesk {
+  text-decoration: none;
+  font-size: large;
+  background-color: azure;
+  padding: 2em;
+  border-radius: 20px;
+  color: black;
+}
+.plesk:hover {
+  background-color: rgba(17, 167, 167, 0.301);
+  color: rgba(216, 14, 14, 0.966);
+  font-weight: bold;
+}
 .langue {
   display: flex;
   justify-content: space-around;
