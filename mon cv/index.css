@@ -1,0 +1,94 @@
+body {
+  margin: auto;
+  font-family: sans-serif, Tahoma;
+  flex-wrap: wrap;
+}
+.Accueil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  background-image: url(univ.jpg);
+  color: beige;
+}
+.Accueil img {
+  border-radius: 5px;
+}
+.info {
+  font-size: 75px;
+  color: rgb(17, 167, 167);
+}
+.photo {
+  margin-top: 30px;
+}
+.profil {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.formation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(17, 167, 167);
+}
+.formation-left {
+  font-weight: bold;
+  font-size: 20px;
+}
+.formation-middle {
+  font-weight: bold;
+  font-size: 20px;
+}
+.formation-right img {
+  width: 200px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.experiences {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+  color: black;
+}
+.experience-middle {
+  font-weight: bold;
+
+  margin: 30px 15px;
+}
+.experience-right img {
+  width: 150px;
+  border-radius: 5px;
+}
+.langue {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 75px;
+  padding: 55px;
+  background-color: rgb(145, 115, 80);
+  border-radius: 5px;
+}
+
+.competences {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+  padding: 40px;
+  background-color: rgb(83, 83, 41);
+  border-radius: 5px;
+}
+.Contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(94, 134, 134);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: antiquewhite;
+}
